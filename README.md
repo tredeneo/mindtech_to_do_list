@@ -16,7 +16,7 @@ python3 principal.py
 não defini uma url padrão então o endereço pode variar do sistema e o que tiver rodando nas portas mas no geral vai abrir em `http://localhost:5000/` ou `http://127.0.0.1:5000`
 
 # guia de uso da API
-### tarefas
+### /tarefas
 * GET
 * lista todas as tarefas cadastradas
 
