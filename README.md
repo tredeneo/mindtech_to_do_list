@@ -12,18 +12,21 @@ python principal.py
 não defini uma url padrão então o endereço pode variar do sistema e o que tiver rodando nas portas mas no geral vai abrir em `http://localhost:5000/` ou `http://127.0.0.1:5000`
 
 # guia de uso da API
-* tarefas 		GET
-lista todas as tarefas cadastradas
+### tarefas
+* GET
+* lista todas as tarefas cadastradas
 
-* /tarefa		GET
-lista uma  tarefa
+### /tarefa
+* GET
+* lista uma  tarefa
 ```json
 {
 	"titulo":"titulo da tarefa", 
 }
 ```
-* /tarefa		POST
-cadastrar tarefa
+### /tarefa
+* POST
+* cadastrar tarefa
 ```json
 {
 	"titulo":"titulo da tarefa",
@@ -31,27 +34,30 @@ cadastrar tarefa
 }
 ```
 
-* /tarefa		DELETE
-exclui uma tarefa cadastrada
+### /tarefa
+* DELETE
+* exclui uma tarefa cadastrada
 ```json
 {
 	"titulo":"titulo da tarefa",
 }
 ```
 
-* /concluir_tarefa	POST
-conclui uma tarefa
+### /concluir_tarefa	
+* POST
+* conclui uma tarefa
 ```json
 {
 	"titulo":"titulo da tarefa",
 }
 ```
 
-* /atualizar_tarefa 	POST
-atualiza uma tarefa
+### /atualizar_tarefa 	
+* POST
+* atualiza uma tarefa
 ```json
 {
-	"titlo":"titulo atual da tarefa",
+	"titulo":"titulo atual da tarefa",
 	"novo_titulo":"novo titulo que sera atribuido a tarefa",
 	"nova_descricao":"nova descrição que sera atribuida a tarefa"
 
