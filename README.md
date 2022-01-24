@@ -1,6 +1,6 @@
 projeto de avaliação para a empresa mindtech 
 
-# requitos
+# requisitos
 * python > 3.6
 * flask
 
