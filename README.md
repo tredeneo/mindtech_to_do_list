@@ -1,5 +1,8 @@
 projeto de avaliação para a empresa mindtech 
 
+# feedback
+` gostaria de dizer que gostei da sua abordagem para o projeto, resolvendo de maneira simples e eficaz. Porém gostaria de destacar alguns pontos aqui: Você poderia ter usado um "id" nas tarefas, ao invés de identificar elas pelo título. Assim seria mais fácil de consumir a sua API. Outra coisa é que a rota "GET /tarefa" retorna apenas a última tarefa registrada, e não uma escolhida.`
+
 # requisitos
 * python > 3.6
 * flask
